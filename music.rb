@@ -26,6 +26,7 @@ def delete_artist(library, artist)
   library.each do |artist, song|
     library.delete(artist)
   end 
+  library
 end
 
 #4. This method should add a new artist and song (key value pair) to the hash and return the updated hash. 
