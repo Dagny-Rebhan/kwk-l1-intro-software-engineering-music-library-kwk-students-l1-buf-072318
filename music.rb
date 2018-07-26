@@ -23,8 +23,8 @@ end
 #This method should take two arguments, the music library hash, and the artist. Remember, keys in hashes are symbols, so you'll need to expect the method to accept the artist as a symbol. 
 
 def delete_artist(library, artist)
-  library.each do |artist|
-    puts  "#{artist}"
+  library.each do |artist, song|
+    delete  #{artist}
   end 
 end
 
