@@ -24,7 +24,7 @@ end
 
 def delete_artist(library, artist)
   library.each do |artist, song|
-     
+    library.delete(artist)
   end 
 end
 
